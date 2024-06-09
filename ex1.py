@@ -31,7 +31,7 @@ def learn(concepts, target):
         general_h.remove(['?', '?', '?', '?', '?', '?'])
     
     return specific_h, general_h
-
+st.title('Code X')
 st.title('Candidate Elimination Algorithm')
 
 data = load_data()
