@@ -31,8 +31,8 @@ def learn(concepts, target):
         general_h.remove(['?', '?', '?', '?', '?', '?'])
     
     return specific_h, general_h
-st.title('Code X')
-st.title('Candidate Elimination Algorithm')
+st.markdown("<h1 style='text-align: center;'>Code X</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Candidate Elimination Algorithm</h1>", unsafe_allow_html=True)
 
 data = load_data()
 
